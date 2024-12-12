@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="8.62s"
+		durationms="8617"
+		type="root"
+		rid="147b7260a8820ae"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="siddharth.mishra"
+		rxversion="11.6.1.0"
+		host="CELSYSBLR000315"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="28-11-2024 14:56:27"
+		timestampiso="2024-11-28T09:26:27"
+		endtime="28-11-2024 14:56:36"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="NewDocumentCreatetionandotheractions">
+		<detail>
+			NewDocumentCreatetionandotheractions
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.372"
+			timeRelativeToTestModuleStartTime="00:05.372"
+			timeWallClock="14:56:32"
+			time="00:05.372"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking Select() on item 'UltraEdit64Bit.ToolBar.Home'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'UltraEdit 64-bi']/?/?/toolbar[@accessiblename=' ']/?/?/tabpage[@accessiblename='Home']"
+				itempath="?/?/tabpage[@accessiblename='Home']"
+				fullname="UltraEditAutomationRepository.UltraEdit64Bit.ToolBar.Home"
+				id="5c29994559734dbebaebb57c6a7a3d68"
+				timeout="90000"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\NewDocumentCreatetionandotheractions.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.619"
+			timeRelativeToTestModuleStartTime="00:08.619"
+			timeWallClock="14:56:36"
+			time="00:08.619"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

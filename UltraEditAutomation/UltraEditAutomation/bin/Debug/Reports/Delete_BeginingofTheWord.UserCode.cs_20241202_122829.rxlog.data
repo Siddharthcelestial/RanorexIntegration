@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="30.11s"
+		durationms="30110"
+		type="root"
+		rid="29ea30c30f06134"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="siddharth.mishra"
+		rxversion="11.6.1.0"
+		host="CELSYSBLR000315"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="02-12-2024 12:28:33"
+		timestampiso="2024-12-02T06:58:33"
+		endtime="02-12-2024 12:29:04"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Delete_BeginingofTheWord">
+		<detail>
+			Delete_BeginingofTheWord
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.403"
+			timeRelativeToTestModuleStartTime="00:10.403"
+			timeWallClock="12:28:44"
+			time="00:10.403"
+			level="Info"
+			category="Line 5">
+			<message>
+				&#32;- Features and enhancements
+			</message>
+			<metainfo
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\Delete_BeginingofTheWord.UserCode.cs"
+				codeline="65"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.409"
+			timeRelativeToTestModuleStartTime="00:10.409"
+			timeWallClock="12:28:44"
+			time="00:10.409"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Uedit64.Goto' at 18;21.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='uedit64']/?/?/toolbar[@accessiblename=' ']/toolbar[@accessiblename='Home']/?/?/button[@accessiblename='Goto']"
+				itempath="?/?/toolbar[@accessiblename=' ']/toolbar[@accessiblename='Home']/?/?/button[@accessiblename='Goto']"
+				fullname="UltraEditAutomationRepository.Uedit64.Goto"
+				id="b908227dfba848c887e1b2d7216c35db"
+				timeout="60000"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\Delete_BeginingofTheWord.cs"
+				codeline="120"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.583"
+			timeRelativeToTestModuleStartTime="00:12.583"
+			timeWallClock="12:28:46"
+			time="00:12.583"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'GoTo.RadioButtonLineColumn' at 60;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Go To']/radiobutton[@text='&amp;Line / column']"
+				itempath="radiobutton[@text='&amp;Line / column']"
+				fullname="UltraEditAutomationRepository.GoTo.RadioButtonLineColumn"
+				id="fba8bffd7e214bbd874a87dbadc2c376"
+				timeout="60000"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\Delete_BeginingofTheWord.cs"
+				codeline="124"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.633"
+			timeRelativeToTestModuleStartTime="00:13.633"
+			timeWallClock="12:28:47"
+			time="00:13.633"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '5/14' with focus on 'GoTo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Go To']"
+				itempath="/form[@title='Go To']"
+				fullname="UltraEditAutomationRepository.GoTo.Self"
+				id="a963d7a5da26473588d1c4c0d8bad958"
+				timeout="30000"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\Delete_BeginingofTheWord.cs"
+				codeline="128"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.884"
+			timeRelativeToTestModuleStartTime="00:13.884"
+			timeWallClock="12:28:47"
+			time="00:13.884"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'GoTo.Goto' at 64;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Go To']/button[@text='G&amp;oto']"
+				itempath="button[@text='G&amp;oto']"
+				fullname="UltraEditAutomationRepository.GoTo.Goto"
+				id="9fb75b4e12024886a5a92c48d916caf1"
+				timeout="60000"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\Delete_BeginingofTheWord.cs"
+				codeline="133"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.400"
+			timeRelativeToTestModuleStartTime="00:14.400"
+			timeWallClock="12:28:48"
+			time="00:14.400"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Uedit64.Edit' at 38;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='uedit64']/?/?/toolbar[@accessiblename=' ']/?/?/tabpage[@accessiblename='Edit']"
+				itempath="?/?/toolbar[@accessiblename=' ']/?/?/tabpage[@accessiblename='Edit']"
+				fullname="UltraEditAutomationRepository.Uedit64.Edit"
+				id="4b124c0385eb44559d8f0724e374b1dc"
+				timeout="60000"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\Delete_BeginingofTheWord.cs"
+				codeline="137"
+				itemindex="13"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.784"
+			timeRelativeToTestModuleStartTime="00:16.784"
+			timeWallClock="12:28:50"
+			time="00:16.784"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Uedit64.Select' at 21;55.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='uedit64']//toolbar[@accessiblename='Edit']/toolbar[@accessiblename='Select and delete']/button[@accessiblename='Select']"
+				itempath=".//toolbar[@accessiblename='Edit']/toolbar[@accessiblename='Select and delete']/button[@accessiblename='Select']"
+				fullname="UltraEditAutomationRepository.Uedit64.Select"
+				id="665273b3b97949c8b96e6f7f262a3469"
+				timeout="60000"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\Delete_BeginingofTheWord.cs"
+				codeline="141"
+				itemindex="14"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.482"
+			timeRelativeToTestModuleStartTime="00:19.482"
+			timeWallClock="12:28:53"
+			time="00:19.482"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Uedit64.Select' at 59;119.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='uedit64']//toolbar[@accessiblename='Edit']/toolbar[@accessiblename='Select and delete']/button[@accessiblename='Select']"
+				itempath=".//toolbar[@accessiblename='Edit']/toolbar[@accessiblename='Select and delete']/button[@accessiblename='Select']"
+				fullname="UltraEditAutomationRepository.Uedit64.Select"
+				id="665273b3b97949c8b96e6f7f262a3469"
+				timeout="60000"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\Delete_BeginingofTheWord.cs"
+				codeline="145"
+				itemindex="15"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.241"
+			timeRelativeToTestModuleStartTime="00:22.241"
+			timeWallClock="12:28:56"
+			time="00:22.241"
+			level="Warn"
+			category="Click"
+			errimg="images_Delete_B_f52b0f0d\Delete_B_b3dac50b_rxlog.jpg"
+			errthumb="images_Delete_B_f52b0f0d\Delete_B_b3dac50b_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\Delete_BeginingofTheWord.cs"
+				codeline="146"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.634"
+			timeRelativeToTestModuleStartTime="00:22.634"
+			timeWallClock="12:28:56"
+			time="00:22.634"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Uedit64.Delete' at 22;54.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='uedit64']//toolbar[@accessiblename='Edit']/toolbar[@accessiblename='Select and delete']/button[@accessiblename='Delete']"
+				itempath=".//toolbar[@accessiblename='Edit']/toolbar[@accessiblename='Select and delete']/button[@accessiblename='Delete']"
+				fullname="UltraEditAutomationRepository.Uedit64.Delete"
+				id="ee8b963e7229450aaeffc0aee3ccdd50"
+				timeout="60000"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\Delete_BeginingofTheWord.cs"
+				codeline="149"
+				itemindex="16"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.534"
+			timeRelativeToTestModuleStartTime="00:25.534"
+			timeWallClock="12:28:59"
+			time="00:25.534"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Uedit64.Delete1' at 72;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='uedit64']/?/?/toolbar[@accessiblename='Delete']/menuitem[@accessiblename='Delete']"
+				itempath="?/?/toolbar[@accessiblename='Delete']/menuitem[@accessiblename='Delete']"
+				fullname="UltraEditAutomationRepository.Uedit64.Delete1"
+				id="0a6067fc2a8a4630ae27be723af763e8"
+				timeout="60000"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\Delete_BeginingofTheWord.cs"
+				codeline="153"
+				itemindex="17"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.108"
+			timeRelativeToTestModuleStartTime="00:30.108"
+			timeWallClock="12:29:04"
+			time="00:30.108"
+			level="Success"
+			category="User">
+			<message>
+				The text in line 5 matches the expected text.
+			</message>
+			<metainfo
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\Delete_BeginingofTheWord.UserCode.cs"
+				codeline="101"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.108"
+			timeRelativeToTestModuleStartTime="00:30.108"
+			timeWallClock="12:29:04"
+			time="00:30.108"
+			level="Info"
+			category="User">
+			<message>
+				The text of 5 is  - Features  enhancements
+			</message>
+			<metainfo
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\Delete_BeginingofTheWord.UserCode.cs"
+				codeline="102"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

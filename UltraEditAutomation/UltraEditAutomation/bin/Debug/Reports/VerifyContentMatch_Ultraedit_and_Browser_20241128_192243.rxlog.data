@@ -1,0 +1,540 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="1.3m"
+		durationms="78775"
+		type="root"
+		rid="10c6a0d5c9a68ddc"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="siddharth.mishra"
+		rxversion="11.6.1.0"
+		host="CELSYSBLR000315"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="28-11-2024 19:22:48"
+		timestampiso="2024-11-28T13:52:48"
+		endtime="28-11-2024 19:24:07"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="VerifyContentMatch_Ultraedit_and_Browser">
+		<detail>
+			VerifyContentMatch_Ultraedit_and_Browser
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.491"
+			timeRelativeToTestModuleStartTime="00:08.491"
+			timeWallClock="19:22:56"
+			time="00:08.491"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'UltraEdit64Bit.editorScreen' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'UltraEdit 64-bi']/?/?/form[@controlid='65280']/?/?/element[@controlid='59648']"
+				itempath="?/?/form[@controlid='65280']/?/?/element[@controlid='59648']"
+				fullname="UltraEditAutomationRepository.UltraEdit64Bit.editorScreen"
+				id="c8bae7c530ed4ea8ab971774ad21b3bc"
+				timeout="60000"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\VerifyContentMatch_Ultraedit_and_Browser.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:37.408"
+			timeRelativeToTestModuleStartTime="00:37.408"
+			timeWallClock="19:23:25"
+			time="00:37.408"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 3s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\VerifyContentMatch_Ultraedit_and_Browser.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:40.419"
+			timeRelativeToTestModuleStartTime="00:40.419"
+			timeWallClock="19:23:28"
+			time="00:40.419"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking Select() on item 'UltraEdit64Bit.ToolBar.Home'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'UltraEdit 64-bi']/?/?/toolbar[@accessiblename=' ']/?/?/tabpage[@accessiblename='Home']"
+				itempath="?/?/tabpage[@accessiblename='Home']"
+				fullname="UltraEditAutomationRepository.UltraEdit64Bit.ToolBar.Home"
+				id="5c29994559734dbebaebb57c6a7a3d68"
+				timeout="90000"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\VerifyContentMatch_Ultraedit_and_Browser.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:42.982"
+			timeRelativeToTestModuleStartTime="00:42.982"
+			timeWallClock="19:23:31"
+			time="00:42.982"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'UltraEdit64Bit.ToolBar.Goto' at 22;20.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'UltraEdit 64-bi']/?/?/toolbar[@accessiblename=' ']/toolbar[@accessiblename='Home']/?/?/button[@accessiblename='Goto']"
+				itempath="toolbar[@accessiblename='Home']/?/?/button[@accessiblename='Goto']"
+				fullname="UltraEditAutomationRepository.UltraEdit64Bit.ToolBar.Goto"
+				id="ff06352d2c354ec0ac64a50f401ba8c7"
+				timeout="90000"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\VerifyContentMatch_Ultraedit_and_Browser.cs"
+				codeline="93"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:45.757"
+			timeRelativeToTestModuleStartTime="00:45.757"
+			timeWallClock="19:23:34"
+			time="00:45.757"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'GoTo.RadioButtonLineColumn' at 29;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Go To']/radiobutton[@text='&amp;Line / column']"
+				itempath="radiobutton[@text='&amp;Line / column']"
+				fullname="UltraEditAutomationRepository.GoTo.RadioButtonLineColumn"
+				id="fba8bffd7e214bbd874a87dbadc2c376"
+				timeout="60000"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\VerifyContentMatch_Ultraedit_and_Browser.cs"
+				codeline="97"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:47.657"
+			timeRelativeToTestModuleStartTime="00:47.657"
+			timeWallClock="19:23:36"
+			time="00:47.657"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '14/1' with focus on 'GoTo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Go To']"
+				itempath="/form[@title='Go To']"
+				fullname="UltraEditAutomationRepository.GoTo.Self"
+				id="a963d7a5da26473588d1c4c0d8bad958"
+				timeout="30000"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\VerifyContentMatch_Ultraedit_and_Browser.cs"
+				codeline="101"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:47.958"
+			timeRelativeToTestModuleStartTime="00:47.958"
+			timeWallClock="19:23:36"
+			time="00:47.958"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'GoTo.Goto' at 54;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Go To']/button[@text='G&amp;oto']"
+				itempath="button[@text='G&amp;oto']"
+				fullname="UltraEditAutomationRepository.GoTo.Goto"
+				id="9fb75b4e12024886a5a92c48d916caf1"
+				timeout="60000"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\VerifyContentMatch_Ultraedit_and_Browser.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:48.606"
+			timeRelativeToTestModuleStartTime="00:48.606"
+			timeWallClock="19:23:37"
+			time="00:48.606"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'UltraEdit64Bit.ToolBar.Goto' at 22;23.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'UltraEdit 64-bi']/?/?/toolbar[@accessiblename=' ']/toolbar[@accessiblename='Home']/?/?/button[@accessiblename='Goto']"
+				itempath="toolbar[@accessiblename='Home']/?/?/button[@accessiblename='Goto']"
+				fullname="UltraEditAutomationRepository.UltraEdit64Bit.ToolBar.Goto"
+				id="ff06352d2c354ec0ac64a50f401ba8c7"
+				timeout="90000"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\VerifyContentMatch_Ultraedit_and_Browser.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:51.574"
+			timeRelativeToTestModuleStartTime="00:51.574"
+			timeWallClock="19:23:40"
+			time="00:51.574"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'GoTo.RadioButtonLineColumn' at 45;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Go To']/radiobutton[@text='&amp;Line / column']"
+				itempath="radiobutton[@text='&amp;Line / column']"
+				fullname="UltraEditAutomationRepository.GoTo.RadioButtonLineColumn"
+				id="fba8bffd7e214bbd874a87dbadc2c376"
+				timeout="60000"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\VerifyContentMatch_Ultraedit_and_Browser.cs"
+				codeline="114"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:53.472"
+			timeRelativeToTestModuleStartTime="00:53.472"
+			timeWallClock="19:23:41"
+			time="00:53.472"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '21/2' with focus on 'GoTo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Go To']"
+				itempath="/form[@title='Go To']"
+				fullname="UltraEditAutomationRepository.GoTo.Self"
+				id="a963d7a5da26473588d1c4c0d8bad958"
+				timeout="30000"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\VerifyContentMatch_Ultraedit_and_Browser.cs"
+				codeline="118"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:53.734"
+			timeRelativeToTestModuleStartTime="00:53.734"
+			timeWallClock="19:23:42"
+			time="00:53.734"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LShiftKey down}' with focus on 'FormCUltraEditFilesUe20241025T06120'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'[C:\UltraEditFiles\ue-202']"
+				itempath="/form[@title>'[C:\UltraEditFiles\ue-202']"
+				fullname="UltraEditAutomationRepository.FormCUltraEditFilesUe20241025T06120.Self"
+				id="b49fb9f05a014d66b0a50be70f4aeca3"
+				timeout="30000"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\VerifyContentMatch_Ultraedit_and_Browser.cs"
+				codeline="123"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:54.916"
+			timeRelativeToTestModuleStartTime="00:54.916"
+			timeWallClock="19:23:43"
+			time="00:54.916"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'GoTo.Goto' at 24;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Go To']/button[@text='G&amp;oto']"
+				itempath="button[@text='G&amp;oto']"
+				fullname="UltraEditAutomationRepository.GoTo.Goto"
+				id="9fb75b4e12024886a5a92c48d916caf1"
+				timeout="60000"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\VerifyContentMatch_Ultraedit_and_Browser.cs"
+				codeline="128"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:55.556"
+			timeRelativeToTestModuleStartTime="00:55.556"
+			timeWallClock="19:23:43"
+			time="00:55.556"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FormCUltraEditFilesUe20241025T06120.Copy' at 58;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'[C:\UltraEditFiles\ue-202']/?/?/toolbar[@accessiblename=' ']/toolbar[@accessiblename='Home']/?/?/button[@accessiblename='Copy']"
+				itempath="?/?/toolbar[@accessiblename=' ']/toolbar[@accessiblename='Home']/?/?/button[@accessiblename='Copy']"
+				fullname="UltraEditAutomationRepository.FormCUltraEditFilesUe20241025T06120.Copy"
+				id="f64b61c7892c461492b958534c8d25ba"
+				timeout="60000"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\VerifyContentMatch_Ultraedit_and_Browser.cs"
+				codeline="132"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:58.358"
+			timeRelativeToTestModuleStartTime="00:58.358"
+			timeWallClock="19:23:46"
+			time="00:58.358"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Uedit64.Copy' at 57;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='uedit64']/?/?/toolbar[@accessiblename='Copy']/menuitem[@accessiblename='Copy']"
+				itempath="?/?/toolbar[@accessiblename='Copy']/menuitem[@accessiblename='Copy']"
+				fullname="UltraEditAutomationRepository.Uedit64.Copy"
+				id="757348e31691402cbf431cd691e15039"
+				timeout="60000"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\VerifyContentMatch_Ultraedit_and_Browser.cs"
+				codeline="136"
+				itemindex="13"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:01.976"
+			timeRelativeToTestModuleStartTime="01:01.976"
+			timeWallClock="19:23:50"
+			time="01:01.976"
+			level="Info"
+			category="Clipboard Content">
+			<message>
+				The clipboard contains: try {<br/>  // Set clipboard content<br/>  UltraEdit.clipboardContent = &quot;Hello World!&quot;;<br/>  // Clear clipboard content<br/>  UltraEdit.clearClipboard();<br/>  var clipboard = UltraEdit.clipboardContent;<br/><br/>}
+			</message>
+			<metainfo
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\VerifyContentMatch_Ultraedit_and_Browser.UserCode.cs"
+				codeline="53"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:01.977"
+			timeRelativeToTestModuleStartTime="01:01.977"
+			timeWallClock="19:23:50"
+			time="01:01.977"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'UltraEdit64Bit.editorScreen1' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'UltraEdit 64-bi']/?/?/form[@controlid='65281']/?/?/element[@controlid='59648']"
+				itempath="?/?/form[@controlid='65281']/?/?/element[@controlid='59648']"
+				fullname="UltraEditAutomationRepository.UltraEdit64Bit.editorScreen1"
+				id="1d68a861a2ae4ff1a4a03191617f8971"
+				timeout="60000"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\VerifyContentMatch_Ultraedit_and_Browser.cs"
+				codeline="143"
+				itemindex="15"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:05.090"
+			timeRelativeToTestModuleStartTime="01:05.090"
+			timeWallClock="19:23:53"
+			time="01:05.090"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FormCUltraEditFilesUe20241025T06120.ShowInDefaultApp' at 30;31.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'[C:\UltraEditFiles\ue-202']/?/?/toolbar[@accessiblename=' ']/toolbar[@accessiblename='Home']/?/?/button[@accessiblename='Show in default app']"
+				itempath="?/?/toolbar[@accessiblename=' ']/toolbar[@accessiblename='Home']/?/?/button[@accessiblename='Show in default app']"
+				fullname="UltraEditAutomationRepository.FormCUltraEditFilesUe20241025T06120.ShowInDefaultApp"
+				id="282c6c4723fc4a93bcc806e603fa7287"
+				timeout="60000"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\VerifyContentMatch_Ultraedit_and_Browser.cs"
+				codeline="147"
+				itemindex="16"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:07.872"
+			timeRelativeToTestModuleStartTime="01:07.872"
+			timeWallClock="19:23:56"
+			time="01:07.872"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 5s.
+			</message>
+			<metainfo
+				itemindex="17"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\VerifyContentMatch_Ultraedit_and_Browser.cs"
+				codeline="151"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:12.879"
+			timeRelativeToTestModuleStartTime="01:12.879"
+			timeWallClock="19:24:01"
+			time="01:12.879"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking Focus() on item 'MicrosoftEdge.SomePreTag'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='']/?/?/pre"
+				itempath="?/?/pre"
+				fullname="UltraEditAutomationRepository.MicrosoftEdge.SomePreTag"
+				id="e9b23c2469994225bad999bc480b76db"
+				timeout="60000"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\VerifyContentMatch_Ultraedit_and_Browser.cs"
+				codeline="154"
+				itemindex="18"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:16.116"
+			timeRelativeToTestModuleStartTime="01:16.116"
+			timeWallClock="19:24:04"
+			time="01:16.116"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key 'Ctrl+A' Press with focus on 'MicrosoftEdge'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='']"
+				itempath="/dom[@caption='']"
+				fullname="UltraEditAutomationRepository.MicrosoftEdge.Self"
+				id="3ab88c2a52bb4c47a8b974185bd70878"
+				timeout="30000"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\VerifyContentMatch_Ultraedit_and_Browser.cs"
+				codeline="158"
+				itemindex="19"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:17.386"
+			timeRelativeToTestModuleStartTime="01:17.386"
+			timeWallClock="19:24:05"
+			time="01:17.386"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key 'Ctrl+C' Press with focus on 'MicrosoftEdge'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='']"
+				itempath="/dom[@caption='']"
+				fullname="UltraEditAutomationRepository.MicrosoftEdge.Self"
+				id="3ab88c2a52bb4c47a8b974185bd70878"
+				timeout="30000"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\VerifyContentMatch_Ultraedit_and_Browser.cs"
+				codeline="163"
+				itemindex="20"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:18.774"
+			timeRelativeToTestModuleStartTime="01:18.774"
+			timeWallClock="19:24:07"
+			time="01:18.774"
+			level="Info"
+			category="Clipboard Content">
+			<message>
+				The clipboard contains: try {<br/>  // Set clipboard content<br/>  UltraEdit.clipboardContent = &quot;Hello World!&quot;;<br/>  // Clear clipboard content<br/>  UltraEdit.clearClipboard();<br/>  var clipboard = UltraEdit.clipboardContent;<br/><br/>}
+			</message>
+			<metainfo
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\VerifyContentMatch_Ultraedit_and_Browser.UserCode.cs"
+				codeline="81"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:18.775"
+			timeRelativeToTestModuleStartTime="01:18.775"
+			timeWallClock="19:24:07"
+			time="01:18.775"
+			level="Success"
+			category="Validation Passed">
+			<message>
+				The stored and current clipboard contents match.
+			</message>
+			<metainfo
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\VerifyContentMatch_Ultraedit_and_Browser.UserCode.cs"
+				codeline="86"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>

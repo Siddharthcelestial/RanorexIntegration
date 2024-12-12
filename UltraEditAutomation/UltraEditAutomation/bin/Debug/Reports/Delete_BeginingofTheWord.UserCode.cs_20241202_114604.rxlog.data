@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="12.27s"
+		durationms="12274"
+		type="root"
+		rid="2e1dd83cbd430ad"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="siddharth.mishra"
+		rxversion="11.6.1.0"
+		host="CELSYSBLR000315"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="02-12-2024 11:46:08"
+		timestampiso="2024-12-02T06:16:08"
+		endtime="02-12-2024 11:46:21"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Delete_BeginingofTheWord">
+		<detail>
+			Delete_BeginingofTheWord
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.267"
+			timeRelativeToTestModuleStartTime="00:12.267"
+			timeWallClock="11:46:21"
+			time="00:12.267"
+			level="Info"
+			category="Line 5">
+			<message>
+				&#32;- Features and enhancements
+			</message>
+			<metainfo
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\Delete_BeginingofTheWord.UserCode.cs"
+				codeline="64"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

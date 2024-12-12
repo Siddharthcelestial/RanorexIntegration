@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="8.08s"
+		durationms="8084"
+		type="root"
+		rid="49e1f66de5a00e1"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="siddharth.mishra"
+		rxversion="11.6.1.0"
+		host="CELSYSBLR000315"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="29-11-2024 12:17:27"
+		timestampiso="2024-11-29T06:47:27"
+		endtime="29-11-2024 12:17:35"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="comparetext">
+		<detail>
+			comparetext
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.673"
+			timeRelativeToTestModuleStartTime="00:05.673"
+			timeWallClock="12:17:33"
+			time="00:05.673"
+			level="Info"
+			category="Application">
+			<message>
+				Closing application containing item 'MicrosoftEdge'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='']"
+				itempath="/dom[@caption='']"
+				fullname="UltraEditAutomationRepository.MicrosoftEdge.Self"
+				id="3ab88c2a52bb4c47a8b974185bd70878"
+				timeout="30000"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\comparetext.cs"
+				codeline="82"
+				itemindex="23"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="24.17s"
+		durationms="24171"
+		type="root"
+		rid="63b0900c1e33db1"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="siddharth.mishra"
+		rxversion="11.6.1.0"
+		host="CELSYSBLR000315"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="02-12-2024 13:55:00"
+		timestampiso="2024-12-02T08:25:00"
+		endtime="02-12-2024 13:55:24"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="DeleteToEnd">
+		<detail>
+			DeleteToEnd
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.153"
+			timeRelativeToTestModuleStartTime="00:24.153"
+			timeWallClock="13:55:24"
+			time="00:24.153"
+			level="Info"
+			category="User">
+			<message>
+				Line 8: '           * Captures commonly needed user and system information '
+			</message>
+			<metainfo
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\DeleteToEnd.UserCode.cs"
+				codeline="58"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

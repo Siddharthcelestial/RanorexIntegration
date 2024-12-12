@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="23.54s"
+		durationms="23536"
+		type="root"
+		rid="9391636d8f0a2e"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="siddharth.mishra"
+		rxversion="11.6.1.0"
+		host="CELSYSBLR000315"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="02-12-2024 13:21:09"
+		timestampiso="2024-12-02T07:51:09"
+		endtime="02-12-2024 13:21:33"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Delete_BeginingofTheWord">
+		<detail>
+			Delete_BeginingofTheWord
+		</detail>
+		<errormessage>
+			Attribute 'AccessibleValue' of element for item 'UltraEditAutomationRepository.FormEdit1UltraEdit64Bit.PageTabList' does not match the specified value (actual='changes.txt*', expected='changes.txt').
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.342"
+			timeRelativeToTestModuleStartTime="00:12.342"
+			timeWallClock="13:21:21"
+			time="00:12.342"
+			level="Info"
+			category="Validation"
+			errimg="images_Delete_B_ea1a7eec\Delete_B_ea1a7eec_eae2db74_trace.jpg"
+			errthumb="images_Delete_B_ea1a7eec\Delete_B_ea1a7eec_eae2db74_trace_thumb.jpg">
+			<message>
+				Validating AttributeEqual (AccessibleValue='changes.txt') on item 'FormEdit1UltraEdit64Bit.PageTabList'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='uedit64']/container[@controlid='59648']/?/?/tabpagelist[@accessiblename='']"
+				itempath="container[@controlid='59648']/?/?/tabpagelist[@accessiblename='']"
+				fullname="UltraEditAutomationRepository.FormEdit1UltraEdit64Bit.PageTabList"
+				id="7dfe2f4aa1af49a0b7e34428b27d6888"
+				timeout="60000"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\Delete_BeginingofTheWord.cs"
+				codeline="82"
+				itemindex="18"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.320"
+			timeRelativeToTestModuleStartTime="00:23.320"
+			timeWallClock="13:21:32"
+			time="00:23.320"
+			level="Failure"
+			category="Validation"
+			errimg="images_Delete_B_ea1a7eec\Delete_B_ea1a7eec_4da950b2_trace.jpg"
+			errthumb="images_Delete_B_ea1a7eec\Delete_B_ea1a7eec_4da950b2_trace_thumb.jpg">
+			<message>
+				Attribute 'AccessibleValue' of element for item 'UltraEditAutomationRepository.FormEdit1UltraEdit64Bit.PageTabList' does not match the specified value (actual='changes.txt*', expected='changes.txt').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='uedit64']/container[@controlid='59648']/?/?/tabpagelist[@accessiblename='']"
+				itempath="container[@controlid='59648']/?/?/tabpagelist[@accessiblename='']"
+				fullname="UltraEditAutomationRepository.FormEdit1UltraEdit64Bit.PageTabList"
+				id="7dfe2f4aa1af49a0b7e34428b27d6888"
+				timeout="60000"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\Delete_BeginingofTheWord.cs"
+				codeline="83"
+				loglvl="Failure"
+				itemindex="18">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.343"
+			timeRelativeToTestModuleStartTime="00:23.343"
+			timeWallClock="13:21:32"
+			time="00:23.343"
+			level="Error"
+			category="Module"
+			errimg="images_Delete_B_ea1a7eec\Delete_B_ea1a7eec_4da950b2_trace.jpg"
+			errthumb="images_Delete_B_ea1a7eec\Delete_B_ea1a7eec_4da950b2_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'AccessibleValue' of element for item 'UltraEditAutomationRepository.FormEdit1UltraEdit64Bit.PageTabList' does not match the specified value (actual='changes.txt*', expected='changes.txt').
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.Execute(AttributeValidation attributeValidation, Func`1 action, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.Execute(IElement element, IMatch match, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)
+   at Ranorex.Validate.AttributeEqualInternal(IElement element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.AttributeEqualInternal(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value, String message, Boolean exceptionOnFail)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value)
+   at UltraEditAutomation.Delete_BeginingofTheWord.Ranorex.Core.Testing.ITestModule.Run() in C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\Delete_BeginingofTheWord.cs:line 83
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\Delete_BeginingofTheWord.cs"
+				codeline="83"
+				type="repoitem"
+				path="/form[@processname='uedit64']/container[@controlid='59648']/?/?/tabpagelist[@accessiblename='']"
+				itempath="container[@controlid='59648']/?/?/tabpagelist[@accessiblename='']"
+				fullname="UltraEditAutomationRepository.FormEdit1UltraEdit64Bit.PageTabList"
+				id="7dfe2f4aa1af49a0b7e34428b27d6888"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="18">
+			</metainfo>
+		</item>
+	</activity>
+</report>

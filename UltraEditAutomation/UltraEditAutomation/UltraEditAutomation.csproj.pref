@@ -1,0 +1,27 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="ReplaceTabRegularExpression.rxrec" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="UltraEditAutomation.rxtst" />
+    <Element value="ValidateBakBackupFileCreated.cs" />
+    <Element value="OpenFile.rxrec" />
+    <Element value="FindTabRegularExpression.rxrec" />
+    <Element value="FindTabRegularExpression.UserCode.cs" />
+    <Element value="ReplaceTabRegularExpression.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="UltraEditAutomation.VerifySaveStateDialog.CheckSaveState(RepoItemInfo formInfo, RepoItemInfo checkboxInfo, RepoItemInfo buttonInfo)" />
+      <Element value="UltraEditAutomation.VerifySaveStateDialog.CheckSaveState(RepoItemInfo formInfo, RepoItemInfo checkboxInfo, RepoItemInfo buttonInfo)" />
+      <Element value="UltraEditAutomation.VerifySaveStateDialog.MergedUserCodeMethod(RepoItemInfo formInfo, RepoItemInfo checkboxInfo, RepoItemInfo buttonInfo)" />
+      <Element value="UltraEditAutomation.StartAUT.CloseTrailScreen()" />
+      <Element value="UltraEditAutomation.StartAUT.CloseTrailscreen()" />
+      <Element value="UltraEditAutomation.VerifyCloseTag.ApeearenceofTag()" />
+    </Array>
+  </Properties>
+</Properties>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="10.42s"
+		durationms="10418"
+		type="root"
+		rid="164c544c04a14f53"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="siddharth.mishra"
+		rxversion="11.6.1.0"
+		host="CELSYSBLR000315"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="02-12-2024 11:44:34"
+		timestampiso="2024-12-02T06:14:34"
+		endtime="02-12-2024 11:44:44"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Delete_BeginingofTheWord">
+		<detail>
+			Delete_BeginingofTheWord
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.410"
+			timeRelativeToTestModuleStartTime="00:10.410"
+			timeWallClock="11:44:44"
+			time="00:10.410"
+			level="Info"
+			category="Full Text from WindowText Attribute">
+			<message>
+				-------- History -----------------------------------------<br/><br/>v2024.1<br/><br/> - Features and enhancements<br/>     * New &#8220;Start support request&#8221; command<br/>           * Generates new email using default system email client<br/>           * Captures commonly needed user and system information <br/>           * Captures current application information<br/>     * Enhanced XML manager editing for attributes and values<br/>     * New horizontal split view for Live Preview<br/>     * New remote file upload/download progress bar in application status bar<br/>     * New compare file command added to file tab menu for easy access<br/>     * Compare tool configuration UI added to support any compare utility<br/>     * Enabled horizontal scrolling with secondary mouse wheel, trackpad, gestures, etc.<br/>     * New underline setting for URLs instead of highlighting<br/>     * Improved readability and usability of compare settings dialog<br/>     * New command to start default email application by clicking any email address in open documents<br/>     * Automatically recover previously open files after a crash without a prompt (reduces user interaction)<br/>     * Full cloud storage support in FTP Browser<br/>     * PowerShell and SSH terminal enhancements for text and command colors<br/><br/> - Other notable quality improvements<br/>     * Improved code folding support for ASP code<br/>     * Improved positioning and selection range for &#8220;active line highlighting for wrapped lines<br/>     * Addressed selection issues with specific search ranges and EOF conditions<br/>     * Resolved discrepancies with differing search count results from different search features<br/>     * Addressed dialog control enable/disable state discrepancies with user tool configuration dialog<br/>     * Corrected negative column number display for certain HTML files<br/>     * Addressed multiple issues with display and editing with non-English text, code pages, and encodings<br/>     * Resolved multiple issues with tab settings and tab displays<br/>     * Resolved multiple printing issues with indentation, positioning, and wrapping<br/>     * Improved &#8220;Save as&#8221; functionality to match and preserve current file type <br/><br/>v2024.0<br/><br/> - Features and enhancements<br/>     * Support for cloud storage services:<br/>           * Google Drive<br/>           * Microsoft OneDrive<br/>           * Amazon S3<br/>           * Dropbox<br/>           * Access and edit files from all your cloud storage services<br/>     * Application scripting additions:<br/>           * New document properties: dateCreated, dateModified, dateAccessed, fileAttributes, owner, syntaxHighlighting, characters, lines, nonEmptyLines, sLOC, averageLineLength, longestLine, changedLines<br/>           * readText/writeText functions<br/>           * getEnvironmentVariable function<br/>     * Updated SSH/Telnet dockable window :<br/>           * Latest encryption standards<br/>           * Support for key agents<br/><br/> - Other notable quality improvements<br/>     * Honor Windows setting to hide cursor (mouse pointer) while typing<br/>     * Allow sorting by clicking on the column headers in the Windows dialog<br/>     * Add &#8220;Copy&#8221; button to Sum Selection dialog for total value<br/>     * Sum selection returns incorrect negative value<br/>     * Add link to main downloads page in Support menu<br/>     * Add ability to run PowerShell script from context menu in Project or FileView<br/>     * Add &#8220;New script&#8221; as default PowerShell template<br/>     * Default language for syntax highlighting is changed if new wordfiles are added<br/>     * Second instead of first configuration item selected on using Find in Configuration<br/>     * Display issues with Manage Themes dialog on Windows 11 at 175% scaling and UHD resolutions<br/>     * Clipped labels in Modify Templates/Modify Groups dialogs at 125% scaling<br/>     * File extension based font setting is ignored<br/>     * URL selection is incorrect in Markdown file<br/>     * Default Template fails to appear, after closing and reopening the file<br/>     * Renaming a file is not reflected in file lists<br/>     * Creating a new template with the same existing template name<br/>     * &#8220;New script&#8221; default template does not appear for all applicable template groups<br/>     * UI elements not clearly visible after resizing Modify Templates dialog<br/><br/>v2023.2<br/><br/> - Features and enhancements<br/>     * Macro edit/create and settings UI update<br/>&#8195;        * Consolidates global macro settings into a single &#8220;Macro settings&#8221; dialog<br/>&#8195;        * Improved edit/create macro dialogs<br/>&#8195;        * Individual macro settings now exposed in edit/create dialogs<br/>     * Proof of concept plugin framework<br/>&#8195;        * Plugin: Code surround<br/>&#8195;        * Plugin: SQL formatter<br/>&#8195;        * Plugin: JSON to XML<br/>&#8195;        * Plugin: File splitter<br/>&#8195;        * Plugin: Tabs to spaces (leading)<br/>     * New community reviewed and approved application icons<br/><br/> - Other notable quality improvements<br/> 	   * Files saved without an extension erroneously have CSH extension<br/>     * Hang when trying to access Find history<br/>     * Alt shortcuts added to macro play dialog<br/>     * FTP Browser now uses dockable window font for local/remote panes<br/>     * Extension is incorrectly added when file is saved<br/>     * Expose current tab stop value in scripting API<br/>     * Reproducible hang when inserting comment on last line of file<br/>     * Resolved intermittent startup instability<br/>     * Brace matching is incorrect in PHP when strings include braces<br/>     * New community reviewed and approved application icon<br/>     * libcurl updated to 8.4.0<br/>     * OpenSSL updated to 3.0.10<br/>     <br/>v2023.1<br/><br/> - Features and enhancements<br/>     * Enhanced large file mode:<br/>         * Brings all large file settings into a common location<br/>         * Easily customize large file optimizations<br/>         * Enable/disable line numbers, code folding, Intellitips, and more<br/>         * Access from &quot;Configuration &#187; File handling &#187; Large files&quot; settings page<br/>     * New &quot;Replace once&quot; functionality added to Find/Replace dialog<br/>     * Improved detection and highlighting of URLs in source files<br/>     * Environment variables now supported for default backup directory<br/>     * PowerShell terminal font can now be customized<br/><br/> - Other notable quality improvements<br/>     * Improved detection of PowerShell scripts<br/>     * Addressed crash when loading specific project data<br/>     * Selection after spell checking &quot;Change&quot; doesn't work correctly<br/>     * &quot;Right-click&quot;...&quot;Only if Ctrl is pressed&quot; spell check option not working<br/>     * Focus is in wrong pane after opening file from FTP and invoking Find dialog<br/>     * Display standard deletion confirmation message box when &quot;Remove Script&quot; is selected<br/>     * Added setting to specify the number of recent projects shown in list in ribbon/submenu<br/>     * Improved C# function detection for function list<br/>     * Spaces at beginning of lines are dropped when inserting templates<br/>     * Dragging a selection in column mode and dropping it doesn't work as expected<br/>     * Find next (F3) with unlimited columns not working as expected<br/><br/>v2023.0<br/><br/> - Features and enhancements<br/>     * Application scripting update<br/>         * Modern JavaScript support and full browser capabilities<br/>         * Legacy JavaScript support by default for full backwards compatibility<br/>         * Enable latest JavaScript by adding header to script: // @Engine=WebView2<br/>     * Dockable PowerShell terminal<br/>         * Dockable window, place anywhere you wish as a floating window or dock in any orientation<br/>         * Execut
+			</message>
+			<metainfo
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\Delete_BeginingofTheWord.UserCode.cs"
+				codeline="54"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.415"
+			timeRelativeToTestModuleStartTime="00:10.415"
+			timeWallClock="11:44:44"
+			time="00:10.415"
+			level="Info"
+			category="Line 8">
+			<message>
+				&#32;          * Captures commonly needed user and system information&#32;
+			</message>
+			<metainfo
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\Delete_BeginingofTheWord.UserCode.cs"
+				codeline="64"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

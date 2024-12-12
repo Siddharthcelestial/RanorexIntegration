@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="7.13s"
+		durationms="7132"
+		type="root"
+		rid="2a86008c55ec119"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="siddharth.mishra"
+		rxversion="11.6.1.0"
+		host="CELSYSBLR000315"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="05-12-2024 11:14:53"
+		timestampiso="2024-12-05T05:44:53"
+		endtime="05-12-2024 11:15:00"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="CloseAUT">
+		<detail>
+			CloseAUT
+		</detail>
+		<errormessage>
+			The process with id '-1' does not exist.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.782"
+			timeRelativeToTestModuleStartTime="00:05.782"
+			timeWallClock="11:14:58"
+			time="00:05.782"
+			level="Warn"
+			category="Data"
+			errimg="images_CloseAUT_f6943bdd\CloseAUT_f6943bdd_fc600014_trace.jpg"
+			errthumb="images_CloseAUT_f6943bdd\CloseAUT_f6943bdd_fc600014_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>CloseAutProcessIDVar
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.804"
+			timeRelativeToTestModuleStartTime="00:05.804"
+			timeWallClock="11:14:58"
+			time="00:05.804"
+			level="Info"
+			category="Application"
+			errimg="images_CloseAUT_f6943bdd\CloseAUT_f6943bdd_fc600014_trace.jpg"
+			errthumb="images_CloseAUT_f6943bdd\CloseAUT_f6943bdd_fc600014_trace_thumb.jpg">
+			<message>
+				Closing application with Process ID bound to variable $CloseAutProcessIDVar.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\CloseAUT.cs"
+				codeline="95"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.021"
+			timeRelativeToTestModuleStartTime="00:07.021"
+			timeWallClock="11:15:00"
+			time="00:07.021"
+			level="Error"
+			category="Module"
+			errimg="images_CloseAUT_f6943bdd\CloseAUT_f6943bdd_7442af30_trace.jpg"
+			errthumb="images_CloseAUT_f6943bdd\CloseAUT_f6943bdd_7442af30_trace_thumb.jpg">
+			<message>
+				The process with id '-1' does not exist.<br/>Process with an Id of -1 is not running.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Host.KillApplication(Int32 processId)
+   at Ranorex.Host.CloseApplication(Int32 processId, Duration gracePeriod)
+   at UltraEditAutomation.CloseAUT.Ranorex.Core.Testing.ITestModule.Run() in C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\CloseAUT.cs:line 96
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\CloseAUT.cs"
+				codeline="96"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

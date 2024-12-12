@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="11.52s"
+		durationms="11520"
+		type="root"
+		rid="f38f17e1ed44d8"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="siddharth.mishra"
+		rxversion="11.6.1.0"
+		host="CELSYSBLR000315"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="03-12-2024 13:52:07"
+		timestampiso="2024-12-03T08:22:07"
+		endtime="03-12-2024 13:52:18"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="VerifyFile_inMultipleLine">
+		<detail>
+			VerifyFile_inMultipleLine
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.515"
+			timeRelativeToTestModuleStartTime="00:11.515"
+			timeWallClock="13:52:18"
+			time="00:11.515"
+			level="Error"
+			category="User">
+			<message>
+				An error occurred while verifying the text: Object reference not set to an instance of an object.
+			</message>
+			<metainfo
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\VerifyFile_inMultipleLine.UserCode.cs"
+				codeline="63"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

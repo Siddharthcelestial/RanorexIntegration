@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="9.29s"
+		durationms="9294"
+		type="root"
+		rid="112d8f3e826b0588"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="siddharth.mishra"
+		rxversion="11.6.1.0"
+		host="CELSYSBLR000315"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="29-11-2024 18:40:55"
+		timestampiso="2024-11-29T13:10:55"
+		endtime="29-11-2024 18:41:04"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="PasteFullLineContent">
+		<detail>
+			PasteFullLineContent
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.463"
+			timeRelativeToTestModuleStartTime="00:05.463"
+			timeWallClock="18:41:00"
+			time="00:05.463"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'UltraEdit64Bit.Home' at 78;-7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'UltraEdit 64-bi']//toolbar[@accessiblerole='ToolBar']//tabpage[@accessiblename='Home']"
+				itempath=".//toolbar[@accessiblerole='ToolBar']//tabpage[@accessiblename='Home']"
+				fullname="UltraEditAutomationRepository.UltraEdit64Bit.Home"
+				id="db189cf85a944abf83572ae9535159d6"
+				timeout="60000"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\PasteFullLineContent.cs"
+				codeline="82"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.905"
+			timeRelativeToTestModuleStartTime="00:08.905"
+			timeWallClock="18:41:04"
+			time="00:08.905"
+			level="Warn"
+			category="Click"
+			errimg="images_PasteFul_bbefcbfc\PasteFul_5755e07c_rxlog.jpg"
+			errthumb="images_PasteFul_bbefcbfc\PasteFul_5755e07c_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\PasteFullLineContent.cs"
+				codeline="83"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+	</activity>
+</report>

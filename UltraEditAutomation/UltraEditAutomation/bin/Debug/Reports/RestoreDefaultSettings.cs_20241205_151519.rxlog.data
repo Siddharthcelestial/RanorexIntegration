@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="6.22s"
+		durationms="6220"
+		type="root"
+		rid="f7a1ac7799a5d8"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="siddharth.mishra"
+		rxversion="11.6.1.0"
+		host="CELSYSBLR000315"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="05-12-2024 15:15:23"
+		timestampiso="2024-12-05T09:45:23"
+		endtime="05-12-2024 15:15:29"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="RestoreDefaultSettings">
+		<detail>
+			RestoreDefaultSettings
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.780"
+			timeRelativeToTestModuleStartTime="00:05.780"
+			timeWallClock="15:15:29"
+			time="00:05.780"
+			level="Info"
+			category="User">
+			<message>
+				Deleting existing destination folder...
+			</message>
+			<metainfo
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\Common\RestoreDefaultSettings.cs"
+				codeline="41"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.897"
+			timeRelativeToTestModuleStartTime="00:05.897"
+			timeWallClock="15:15:29"
+			time="00:05.897"
+			level="Info"
+			category="User">
+			<message>
+				Folder deleted successfully.
+			</message>
+			<metainfo
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\Common\RestoreDefaultSettings.cs"
+				codeline="43"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.897"
+			timeRelativeToTestModuleStartTime="00:05.897"
+			timeWallClock="15:15:29"
+			time="00:05.897"
+			level="Info"
+			category="User">
+			<message>
+				Copying source folder to destination...
+			</message>
+			<metainfo
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\Common\RestoreDefaultSettings.cs"
+				codeline="46"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.220"
+			timeRelativeToTestModuleStartTime="00:06.220"
+			timeWallClock="15:15:29"
+			time="00:06.220"
+			level="Success"
+			category="User">
+			<message>
+				Settings restored successfully.
+			</message>
+			<metainfo
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\Common\RestoreDefaultSettings.cs"
+				codeline="48"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>

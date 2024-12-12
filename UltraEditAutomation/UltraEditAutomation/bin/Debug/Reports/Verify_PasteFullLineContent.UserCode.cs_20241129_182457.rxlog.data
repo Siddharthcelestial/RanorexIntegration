@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="9.29s"
+		durationms="9290"
+		type="root"
+		rid="59094dcfad5ffb1"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="siddharth.mishra"
+		rxversion="11.6.1.0"
+		host="CELSYSBLR000315"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="29-11-2024 18:25:00"
+		timestampiso="2024-11-29T12:55:00"
+		endtime="29-11-2024 18:25:10"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Verify_PasteFullLineContent">
+		<detail>
+			Verify_PasteFullLineContent
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.285"
+			timeRelativeToTestModuleStartTime="00:09.285"
+			timeWallClock="18:25:09"
+			time="00:09.285"
+			level="Info"
+			category="Full Text from WindowText Attribute">
+			<message>
+				English: This is the source for file tests with many strange characters.
+Albanian: Kjo është burim për fotografi teste me shumë shenja të çuditshme.
+Arabic: ??? ?? ???? ????? ??????? ?? ?????? ?? ???????? ???????.
+Bulgarian: ???? ? ?????????? ?? ???? ??????? ? ????? ??????? ???????.
+Catalan: Aquesta és la font d'arxiu de proves amb molts caràcters estranys.
+Chinese Simplified: ????????,????????
+Chinese Traditional: ????????,????????
+Croatian: To je izvor za datoteku testovi sa mnogim cudnim likovima.
+Czech: Toto je zdrojový soubor testu s mnoha divné znaky.
+Danish: Dette er den kilde til fil tests med mange mærkelige tegn.
+Dutch: Dit is de bron voor bestand prooeven met veel vreemde tekens.
+Estonian: See on allikas faili testid paljude kummaline tähemärki.
+Filipino: Ito ay ang mga pinagkukunan para sa mga file na pagsusulit na may maraming mga kakaibang karakter.
+Finnish: Tämä on lähde tiedosto testit monia outoja merkkejä.
+French: C'est la source pour le fichier des tests avec de nombreux personnages étranges.
+Galician: Este é o ficheiro fonte para probas con moitos caracteres raro.
+German: Dies ist die Quelle für die Datei-Tests mit vielen seltsamen Zeichen.
+Greek: ??t? e??a? ? p??? ??a t? a??e?? µe p????? d???µ?? pe??e??? ?a?a?t??e?.
+Hebrew: ??? ????? ???? ???? ?????? ???? ?? ????? ??????
+Hindi: ?? ???? ???? ????? ?? ??? ???? ???? ?? ??? ????? ??.
+Hungarian: Ez a forrás a fájl vizsgálatok sok fura karaktereket.
+Indonesian: Ini adalah file sumber untuk tes dengan berbagai karakter aneh.
+Italian: Questo è il file sorgente per le prove con molti caratteri strani.
+Japanese: ??????????????????????????????
+Korean: ??? ??? ??? ??? ?? ?????? ?????.
+Latvian: Tas ir avots failu testu ar daudzam divaini rakstzimes.
+Lithuanian: Tai šaltinio failo bandymus su daug keistu simboliu.
+Maltese: Dan huwa s-sors ghall-fajl testijiet b'hafna karattri strambi.
+Norwegian: Dette er kilden til filen testene med mange merkelige tegn.
+Polish: Jest to zródlo pliku testy z wielu dziwnych znaków.
+Portuguese: Este é o arquivo fonte para testes com muitos caracteres estranhos.
+Romanian: Aceasta este sursa de fisier teste cu mai multe caractere ciudate.
+Russian: ??? ???????? ???? ????? ? ??????? ??????????? ????????.
+Serbian: 	?? ?? ????? ?? ???????? ??????? ?? ?????? ?????? ????????.
+Slovak: Toto je zdrojový súbor testov s mnohými divné znaky.
+Slovenian: To je vir za datoteke testi z veliko cudnih znakov.
+Spanish: Esta es la fuente de archivo de pruebas con muchos caracteres extraños.
+Swedish: Detta är källan till filen tester med många konstiga tecken.
+Thai: 	??????????????????????????????????????.
+Turkish: 	Bu çok ilginç karakterlerle dosya testleri için kaynagidir.
+Ukranian: ?? ???????? ???? ????? ? ??????? ????????? ????????.
+Vietnamese: 	Ðây là mã ngu?n cho các bài ki?m tra t?p tin v?i nhi?u ký t? l?.
+Croatian: To je izvor za datoteku testovi sa mnogim cudnim likovima.
+			</message>
+			<metainfo
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\Verify_PasteFullLineContent.UserCode.cs"
+				codeline="52"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.288"
+			timeRelativeToTestModuleStartTime="00:09.288"
+			timeWallClock="18:25:10"
+			time="00:09.288"
+			level="Info"
+			category="Line 8">
+			<message>
+				Croatian: To je izvor za datoteku testovi sa mnogim cudnim likovima.
+			</message>
+			<metainfo
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\Verify_PasteFullLineContent.UserCode.cs"
+				codeline="64"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.289"
+			timeRelativeToTestModuleStartTime="00:09.289"
+			timeWallClock="18:25:10"
+			time="00:09.289"
+			level="Success"
+			category="User">
+			<message>
+				Content of Line 8 matches the last line.
+			</message>
+			<metainfo
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\Verify_PasteFullLineContent.UserCode.cs"
+				codeline="72"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="36.16s"
+		durationms="36158"
+		type="root"
+		rid="d23dd285ce8b2c"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="siddharth.mishra"
+		rxversion="11.6.1.0"
+		host="CELSYSBLR000315"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="04-12-2024 14:36:43"
+		timestampiso="2024-12-04T09:06:43"
+		endtime="04-12-2024 14:37:19"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="MatchCase">
+		<detail>
+			MatchCase
+		</detail>
+		<errormessage>
+			Failed to find item 'UltraEditAutomationRepository.HEXFindReplace.Self'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.458"
+			timeRelativeToTestModuleStartTime="00:05.458"
+			timeWallClock="14:36:48"
+			time="00:05.458"
+			level="Warn"
+			category="Data"
+			errimg="images_MatchCas_ae6665ce\MatchCas_ae6665ce_b1653a5f_trace.jpg"
+			errthumb="images_MatchCas_ae6665ce\MatchCas_ae6665ce_b1653a5f_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>Text, Warning
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.476"
+			timeRelativeToTestModuleStartTime="00:05.476"
+			timeWallClock="14:36:48"
+			time="00:05.476"
+			level="Info"
+			category="Invoke action"
+			errimg="images_MatchCas_ae6665ce\MatchCas_ae6665ce_b1653a5f_trace.jpg"
+			errthumb="images_MatchCas_ae6665ce\MatchCas_ae6665ce_b1653a5f_trace_thumb.jpg">
+			<message>
+				Invoking Close() on item 'HEXFindReplace'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='HEX Find/Replace']"
+				itempath="/form[@title='HEX Find/Replace']"
+				fullname="UltraEditAutomationRepository.HEXFindReplace.Self"
+				id="1f22dedd8a874634b65b06a3fb90c8fa"
+				timeout="30000"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\MatchCase.cs"
+				codeline="108"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:36.058"
+			timeRelativeToTestModuleStartTime="00:36.058"
+			timeWallClock="14:37:19"
+			time="00:36.058"
+			level="Error"
+			category="Module"
+			errimg="images_MatchCas_ae6665ce\MatchCas_ae6665ce_c07258e6_trace.jpg"
+			errthumb="images_MatchCas_ae6665ce\MatchCas_ae6665ce_c07258e6_trace_thumb.jpg">
+			<message>
+				Failed to find item 'UltraEditAutomationRepository.HEXFindReplace.Self'.<br/>No element found for path '/form[@title='HEX Find/Replace']' at step 'form[@title='HEX Find/Replace']' after 52 attempts within 30s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at UltraEditAutomation.UltraEditAutomationRepositoryFolders.HEXFindReplaceAppFolder.get_Self() in C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\UltraEditAutomationRepository.cs:line 5621&#13;&#10;   at UltraEditAutomation.MatchCase.Ranorex.Core.Testing.ITestModule.Run() in C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\MatchCase.cs:line 109&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\MatchCase.cs"
+				codeline="109"
+				type="repoitem"
+				path="/form[@title='HEX Find/Replace']"
+				itempath="/form[@title='HEX Find/Replace']"
+				fullname="UltraEditAutomationRepository.HEXFindReplace.Self"
+				id="1f22dedd8a874634b65b06a3fb90c8fa"
+				timeout="30000"
+				failedStep="form[@title='HEX Find/Replace']"
+				bestPathPrefix=""
+				loglvl="Error"
+				itemindex="10">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="20.78s"
+		durationms="20775"
+		type="root"
+		rid="2bb5cd6a72cb3b6c"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="siddharth.mishra"
+		rxversion="11.6.1.0"
+		host="CELSYSBLR000315"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="02-12-2024 13:22:14"
+		timestampiso="2024-12-02T07:52:14"
+		endtime="02-12-2024 13:22:35"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Delete_BeginingofTheWord">
+		<detail>
+			Delete_BeginingofTheWord
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.661"
+			timeRelativeToTestModuleStartTime="00:12.661"
+			timeWallClock="13:22:27"
+			time="00:12.661"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (AccessibleValue='changes.txt*') on item 'FormEdit1UltraEdit64Bit.PageTabList'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='uedit64']/container[@controlid='59648']/?/?/tabpagelist[@accessiblename='']"
+				itempath="container[@controlid='59648']/?/?/tabpagelist[@accessiblename='']"
+				fullname="UltraEditAutomationRepository.FormEdit1UltraEdit64Bit.PageTabList"
+				id="7dfe2f4aa1af49a0b7e34428b27d6888"
+				timeout="60000"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\Delete_BeginingofTheWord.cs"
+				codeline="82"
+				itemindex="18"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.772"
+			timeRelativeToTestModuleStartTime="00:20.772"
+			timeWallClock="13:22:35"
+			time="00:20.772"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'AccessibleValue' of element for item 'UltraEditAutomationRepository.FormEdit1UltraEdit64Bit.PageTabList' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='uedit64']/container[@controlid='59648']/?/?/tabpagelist[@accessiblename='']"
+				itempath="container[@controlid='59648']/?/?/tabpagelist[@accessiblename='']"
+				fullname="UltraEditAutomationRepository.FormEdit1UltraEdit64Bit.PageTabList"
+				id="7dfe2f4aa1af49a0b7e34428b27d6888"
+				timeout="60000"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\Delete_BeginingofTheWord.cs"
+				codeline="83"
+				loglvl="Success"
+				itemindex="18">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="39.9s"
+		durationms="39904"
+		type="root"
+		rid="16d38b52c6b73ab2"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="siddharth.mishra"
+		rxversion="11.6.1.0"
+		host="CELSYSBLR000315"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="09-12-2024 16:28:35"
+		timestampiso="2024-12-09T10:58:35"
+		endtime="09-12-2024 16:29:15"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="StartAUT">
+		<detail>
+			StartAUT
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.171"
+			timeRelativeToTestModuleStartTime="00:06.171"
+			timeWallClock="16:28:41"
+			time="00:06.171"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Program Files\IDM Computer Solutions\UltraEdit\uedit64.exe' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\StartAUT.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:37.127"
+			timeRelativeToTestModuleStartTime="00:37.127"
+			timeWallClock="16:29:12"
+			time="00:37.127"
+			level="Success"
+			category="User">
+			<message>
+				No Trail License window present.
+			</message>
+			<metainfo
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\StartAUT.UserCode.cs"
+				codeline="47"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:37.128"
+			timeRelativeToTestModuleStartTime="00:37.128"
+			timeWallClock="16:29:12"
+			time="00:37.128"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking Maximize() on item 'UltraEdit64Bit'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'UltraEdit 64-bi']"
+				itempath="/form[@title~'UltraEdit 64-bi']"
+				fullname="UltraEditAutomationRepository.UltraEdit64Bit.Self"
+				id="5274a8d051584fdaa542b6fdc24cb4f2"
+				timeout="30000"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\StartAUT.cs"
+				codeline="95"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:37.894"
+			timeRelativeToTestModuleStartTime="00:37.894"
+			timeWallClock="16:29:13"
+			time="00:37.894"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\StartAUT.cs"
+				codeline="99"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>
